@@ -37,7 +37,7 @@ function [MWS,Xtrim,Trimcond,Err] = trimgtm(target,PitchSurf,verbose)
 %
 % Examples:
 %  MWS=trimgtm(struct('eas',95,'gamma',0));
-%  [MWS,Xt,Tc,Er]=trimgtm(struct('alpha',3,'gamma',0,'yaw',120),1);
+%  [MWS,Xt,Tc,Er]=trimgtm(struct('alpha',3,'gamma',0,'yaw',120),"elev");
 %  [MWS,Xt,Tc,Er]=trimgtm(struct('tas',100,'gamma',3,'yawrate',10),0,0);
 %
 

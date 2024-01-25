@@ -11,7 +11,7 @@
 
 %% Trim to set of angles of attack
 AOA=[2,4,6,8,  10,11,12,13,14,  16,18,20];
-%AOA=[2:3:20];
+% AOA=[2:3:20];
 
 % Allocate memory
 shortperiod = zeros(length(AOA),2);

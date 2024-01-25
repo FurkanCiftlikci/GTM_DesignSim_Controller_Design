@@ -1,15 +1,45 @@
-#GTM_DesignSim: The Generic Transport Model
+# BitirmeProjesi
+2023-2024 İTÜ Kontrol ve Otomasyon Mühendisliği Bitirme Projesi
 
-The GTM_DesignSim is a batch simulation intended for design and analysis of flight control laws.  It models the
-dynamics of a 5.5% scale model of a generic transport aircraft.  It was developed to allow fault accomodating control
-algorithms to be developed and refined in simulation before being tested on an experimental subscale model.  
+##### How to set up Flight Gear and connect it to Simulink #####
 
-See:
+1) Download the Flight Gear latest version from its website.
+2) Launch the Fligt Gear. Click the "Aircraft" from the left. Search for "Boeing 777-300" and install it.
+   When you install it open the local directory of the aircraft. You can see the directory from the FlightGear.
+   For me it is:
+   C:\Users\ciftl\FlightGear\Downloads\Aircraft\org.flightgear.fgaddon.stable_2020\Aircraft
 
-Cunningham, K., Cox, D. E., Murri, D. G., and Riddick, S. E., *“A Piloted Evaluation of Damage Accommodating Flight Control Using a Remotely Piloted Vehicle,”* **AIAA-2011-6451**, AIAA Guidance, Navigation, and Control Conference and Exhibit, Portland Oregon, August 2011."   
+3) Copy the "777" file folder. 
 
-and the references therein for a summary of the research.  
+4) From the desktop right click the FlightGear and click "Open File Location"	
 
-The simulation, however, was released as open-source and has been found useful in many other applications where a
-non-linear large-envelope flight dynamics simulation is required.
+5) Open the aircraft directory. For me it is:
+   C:\Program Files\FlightGear 2020.3\data\Aircraft
+   
+6) Paste the "777" file folder into this directory.
 
+7) Rename the file folder as "777-300".
+
+8) Open the MATLAB
+
+9) Run the setup.m file that will open the Simulink file.
+
+10) Click and open the "GEN FG RUN".
+
+11) Change the "FlightGear geometry model name" as "777-300".
+
+12) From the same menu, go to the "File" section. Change "FlightGear" base directory
+    with your correct directory. If the directory is same, no need to change.
+
+13) Click Apply and "Generate Script" from the same menu. You can close the menu now.
+	If you want to change aircraft, file directory or something else, you need to regenarete script.
+	
+14) When you generate script, it will appear in "BitirmeProjesi" file folder.
+
+15) Double click on it, then FlightGear will automatically start.
+
+16) Change the Simulink	"Stop Time" as "inf" and run the Simulink.
+
+17) You will see your aircarft in FlightGear as simulation continuing.
+
+--------------------------------------------------------------------------------------
