@@ -1,5 +1,16 @@
-# BitirmeProjesi
-2023-2024 İTÜ Kontrol ve Otomasyon Mühendisliği Bitirme Projesi
+# GTM_DesignSim_Controller_Design
+2023-2024 Istanbul Technical University, Control and Automation Engineering Thesis
+
+##### Description #####
+This thesis aims to design a PID (Proportional-Integral-Derivative) controllers for the autonomous landing process of a fixed-wing NASA-GTM aircraft. 
+
+Project contains four folder:
+
+1) gtm_design: Main folder that contains controllers in the Simulink model. 
+2) gtm_design_additional: Additional folder that not contains the controllers but additional anaylsis scripts.
+3) resources: This folder contains the useful articles and books for research.
+4) thesis_documents: It includes the thesis report and presentation.
+
 
 ##### How to set up Flight Gear and connect it to Simulink #####
 
