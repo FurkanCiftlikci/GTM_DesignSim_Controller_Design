@@ -59,7 +59,6 @@ MWS = trimgtm(struct('tas',75,'gamma',0));
 [sys,londyn,latdyn] = linmodel(MWS,1,0,0);
 
 Dynamics(londyn.A,latdyn.A);
-
 % FigurePlotting(londyn.A, londyn.B, londyn.C, londyn.D, latdyn.A, latdyn.B, latdyn.C, latdyn.D)
 
 
