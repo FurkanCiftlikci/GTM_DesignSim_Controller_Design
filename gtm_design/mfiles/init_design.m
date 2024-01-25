@@ -44,7 +44,7 @@ MWS.WindShearOn = 1;
 MWS.Timestep = 1/200; % sec
 
 % Initial Conditions
-ini.Altitude =     800; % ft
+ini.Altitude =     1000; % ft
 ini.tas      =     75;      % knots
 ini.alpha    =     3;        % deg
 ini.gamma    =     1;        % deg
