@@ -52,8 +52,8 @@ ini.stab     =     0;
 % ini.lat      =     37.02814654;  %Smithfield, deg
 % ini.lon      =    -76.58696588;  %Smithfield, deg
 % Flying at Wallops
-ini.lat        =  37.827926944;
-ini.lon        = -75.494061666;
+ini.lat        =  63.953769; 
+ini.lon        = -22.625461;
 MWS.StatesInp  = SetICs(ini);
 MWS.runway_alt = 12; %ft
 

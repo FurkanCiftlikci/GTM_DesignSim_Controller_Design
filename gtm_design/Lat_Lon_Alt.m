@@ -1,8 +1,8 @@
 % Convert from lat/lon to ft to meter(Calibrated at Smithfield)
 %% Run for once
-sim_lon(1:10000) = [];
-sim_lat(1:10000) = [];
-sim_alt(1:10000) = [];
+sim_lon(1:30000) = [];
+sim_lat(1:30000) = [];
+sim_alt(1:30000) = [];
 
 %%
 
