@@ -44,10 +44,10 @@ MWS.WindShearOn = 1;
 MWS.Timestep = 1/200; % sec
 
 % Initial Conditions
-ini.Altitude =     1000; % ft
-ini.tas      =     75;      % knots
+ini.Altitude =     500; % ft
+ini.tas      =     75;       % knots
 ini.alpha    =     3;        % deg
-ini.gamma    =     1;        % deg
+ini.gamma    =     0;        % deg
 ini.stab     =     0;
 % ini.lat      =     37.02814654;  %Smithfield, deg
 % ini.lon      =    -76.58696588;  %Smithfield, deg
