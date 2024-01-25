@@ -49,13 +49,14 @@ open_system('linearaircraft');
 
 % load nominal starting point
 loadmws(init_design('GTM'),'gtm_design');
+% loadmws(init_design('GTM_T2')); run this after running the setup.m
 
 % Trim model, and load trimmed conditions
 % appendmws(trimgtm(struct('eas',75, 'gamma',0)));
 
 MWS = trimgtm(struct('eas',75, 'gamma',0));
 
-[sys,londyn,latdyn] = linmodel(MWS,1,0,0)
+[sys,londyn,latdyn] = linmodel(MWS,1,0,0);
 
 Dynamics(londyn.A,latdyn.A);
 
